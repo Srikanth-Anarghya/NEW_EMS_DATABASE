@@ -1,0 +1,8 @@
+create table Department(
+    Department_id varchar (100) not null,
+    Department_name varchar(200) not null,
+    parent_branch varchar(100) not null,
+    parent_org varchar(100) not null,
+    pincode int(100) not null,
+    State varchar(100) not null
+    );
